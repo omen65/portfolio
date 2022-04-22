@@ -941,6 +941,10 @@
     }
     .contact-information {
         padding: 28px 15px;
+        width: 100%;
+    }
+    .contact-information ul{
+        margin-bottom: 0px;
     }
     .contact-information ul li {
         margin-bottom: 15px;
@@ -1009,7 +1013,7 @@
         box-shadow: 0 0 30px 0 #e9eefc;
     }
     .dynamic-txts {
-        height: 36px;
+        height: 70px;
     }
 
     .carousel-control-prev i, .carousel-control-next i,
@@ -1090,6 +1094,9 @@
     }
     .service-box-item{
         text-align: center;
+    }
+    .service-box-item ul{
+        text-align: left;
     }
     .service-box-item figure {
         margin: 0 auto 15px !important;
