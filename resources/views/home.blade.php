@@ -11,6 +11,22 @@
       <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/mobile.css') }}">
       <title>Feri Anggriawan | Full Stack Developer</title>
+      <!-- Primary Meta Tags -->
+    <meta name="title" content="Feri Anggriawan">
+    <meta name="description" content="Full Stack Developer">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://ferianggriawan.com/">
+    <meta property="og:title" content="Feri Anggriawan">
+    <meta property="og:description" content="Full Stack Developer">
+    <meta property="og:image" content="{{ asset('assets/image/my-icon.png') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://ferianggriawan.com/">
+    <meta property="twitter:title" content="Feri Anggriawan">
+    <meta property="twitter:description" content="Full Stack Developer">
    </head>
    <body>
       <!---header-and-banner-section-->
