@@ -97,7 +97,7 @@
                                  </p>
                               </div>
                               <div class="banner-btn generic-btn d-inline-block">
-                                 <a href="#Contact">Hire Me</a>
+                                 <a href="https://wa.me/6282210182903" target="_blank">Contact Me</a>
                               </div>
                               <a href="#portfolio" class="See-btn">See My Work</a>
                            </div>
@@ -391,7 +391,8 @@
                         </ul>
                      </div>
                      <div class="contact-information position-relative wow slideInLeft" >
-                        <ul class="list-unstyled">
+                        <a href="mailto:ferianggriawan.official@gmail.com" target="_blank">
+                            <ul class="list-unstyled">
                            <li class="mb-0">
                               <figure class="mb-0 d-flex align-items-center justify-content-center">
                                  <img src="assets/image/message-icon.png" alt="message-icon" class="img-fluid">
@@ -402,19 +403,22 @@
                               </div>
                            </li>
                         </ul>
+                        </a>
                      </div>
                      <div class="contact-information position-relative wow slideInLeft" >
-                        <ul class="list-unstyled">
-                           <li class="mb-0">
-                              <figure class="mb-0 d-flex align-items-center justify-content-center">
-                                 <img src="assets/image/phone-icon.png" alt="phone-icon" class="img-fluid">
-                              </figure>
-                              <div class="contact-information-content">
-                                 <h5>Phone:</h5>
-                                 <p class="mb-0">+62 822 1018 2903</p>
-                              </div>
-                           </li>
-                        </ul>
+                        <a href="tel:6282210182903" target="_blank">
+                            <ul class="list-unstyled" style="cursor: pointer">
+                            <li class="mb-0">
+                                <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                    <img src="assets/image/phone-icon.png" alt="phone-icon" class="img-fluid">
+                                </figure>
+                                <div class="contact-information-content">
+                                    <h5>Phone:</h5>
+                                    <p class="mb-0">+62 822 1018 2903</p>
+                                </div>
+                            </li>
+                            </ul>
+                        </a>
                   </div>
                </div>
             </div>
@@ -440,7 +444,7 @@
                </div>
             </div>
             <div class="copy-right-content text-center">
-               <p class="mb-0">Copyright 2022 FolioFlix.com | All Rights Reserved.</p>
+               <p class="mb-0">Copyright <?= date('Y');?> ferianggriawan.com | All Rights Reserved.</p>
             </div>
          </div>
       </div>
