@@ -1467,6 +1467,7 @@ body{
     color:#fff;
 }
 .skills-list li{
+    cursor: pointer;
     list-style: none;
     display: inline-block;
     background-color: #6f34fe;
@@ -1474,6 +1475,15 @@ body{
     color: #fff;
     border-radius: 20px;
     margin: 5px;
+    transition: all 0.3s;
+}
+.skills-list li:hover{
+    transform: scale(1.05);
+    background-color: var(--accent);
+    color: #fff;
+}
+.skills-list li.blur{
+    background-color: #b194f4;
 }
 .portfolio-box{
     height: 200px;
@@ -1534,4 +1544,19 @@ body{
     color: #fff;
     background-color: var(--accent);
     
+}
+.skill-icon{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    height: 80px;
+    width: auto;
+    margin: 20px 10px;
+    background-color: #fff;
+    vertical-align: middle;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.skill-icon:hover{
+    transform: scale(1.05);
 }

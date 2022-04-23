@@ -1014,6 +1014,7 @@
     }
     .dynamic-txts {
         height: 70px;
+        font-size: 30px;
     }
 
     .carousel-control-prev i, .carousel-control-next i,

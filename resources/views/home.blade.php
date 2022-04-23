@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
       <link rel="stylesheet" href="{{ asset('assets/bootstarp/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/super-classes.css') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1.0.1') }}">
-      <link rel="stylesheet" href="{{ asset('assets/css/mobile.css?v=1.0.1') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1.0.2') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/mobile.css?v=1.0.2') }}">
       <title>Feri Anggriawan | Full Stack Developer</title>
       <!-- Primary Meta Tags -->
     <meta name="title" content="Feri Anggriawan">
@@ -197,8 +197,21 @@
          <div class="container">
             <div class="skill-inner-con position-relative">
                <div class="row">
-                  <div class="col-lg-6 order-lg-0 order-2">
-                     
+                  <div class="col-lg-6 text-center d-none d-lg-block pt-5">
+                     <img src="{{ asset('assets/image/php.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/mysql.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/html.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/css3.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/jquery.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/javascript.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/codeigniter.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/bootstrap.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/laravel.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/node-js.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/github.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/wordpress.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/adobe.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/adobe-illustrator.svg') }}" class="skill-icon">
                   </div>
                   <div class="col-lg-6 d-flex align-items-center">
                      <div class="skill-right-con wow slideInRight" >
@@ -211,11 +224,11 @@
                               <li>Googling & Problem Solfing</li>
                               <li>PHP</li>
                               <li>Code Igniter (3 & 4)</li>
-                              <li>Laravel</li>
+                              <li class="blur">Laravel</li>
                               <li>Mysql</li>
                               <li>Javascript</li>
                               <li>Jquery</li>
-                              <li>NodeJS</li>
+                              <li class="blur">NodeJS</li>
                               <li>CSS 3</li>
                               <li>Bootsrap</li>
                               <li>Git</li>
@@ -226,7 +239,7 @@
                            </ul>
                         </p>
                         <div class="generic-btn download-bnt">
-                           <a href="#" id="downloadImg" onclick="downloadImage()">Download CV</a>                  
+                           <a href="{{ asset('assets/image/cv-feri-anggriawan.pdf') }}" target="_blank">View CV</a>                  
                         </div>
                      </div>
                   </div>
@@ -432,10 +445,10 @@
                <div class="footer-social-icon">
                   <ul class="mb-0">
                      <li class="d-inline-block">
-                        <a href="https://www.instagram.com/omen65/" target="_blank"><i class="fab fa-github d-flex align-items-center justify-content-center"></i></a>
+                        <a href="https://github.com/omen65" target="_blank"><i class="fab fa-github d-flex align-items-center justify-content-center"></i></a>
                      </li>
                      <li class="d-inline-block">
-                        <a href="https://github.com/omen65" target="_blank"><i class="fab fa-instagram d-flex align-items-center justify-content-center"></i></a>
+                        <a href="https://www.instagram.com/omen65/" target="_blank"><i class="fab fa-instagram d-flex align-items-center justify-content-center"></i></a>
                      </li>
                      <li class="d-inline-block">
                         <a href="https://www.linkedin.com/in/feri-anggriawan-0309a414a/" target="_blank"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
