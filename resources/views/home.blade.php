@@ -229,6 +229,7 @@
                               <li>Mysql</li>
                               <li>Javascript</li>
                               <li>Jquery</li>
+                              <li>Vue JS</li>
                               <li class="blur">NodeJS</li>
                               <li>CSS 3</li>
                               <li>Bootsrap</li>
