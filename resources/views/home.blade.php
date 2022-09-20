@@ -207,6 +207,7 @@
                      <img src="{{ asset('assets/image/codeigniter.svg') }}" class="skill-icon">
                      <img src="{{ asset('assets/image/bootstrap.svg') }}" class="skill-icon">
                      <img src="{{ asset('assets/image/laravel.svg') }}" class="skill-icon">
+                     <img src="{{ asset('assets/image/vue.svg') }}" class="skill-icon">
                      <img src="{{ asset('assets/image/node-js.svg') }}" class="skill-icon">
                      <img src="{{ asset('assets/image/github.svg') }}" class="skill-icon">
                      <img src="{{ asset('assets/image/wordpress.svg') }}" class="skill-icon">
@@ -224,7 +225,7 @@
                               <li>Googling & Problem Solfing</li>
                               <li>PHP</li>
                               <li>Code Igniter (3 & 4)</li>
-                              <li class="blur">Laravel</li>
+                              <li>Laravel</li>
                               <li>Mysql</li>
                               <li>Javascript</li>
                               <li>Jquery</li>
@@ -264,6 +265,16 @@
             <div class="row justify-content-center">
                <div class="filter-portfolio col-md-4 programming mt-4">
                   <div class="portfolio-box">
+                     <img src="{{ asset('assets/image/point.png') }}" class="img-fluid" alt="">
+                     <div class="portfolio-box-caption">
+                        <h4>Point APP</h4>
+                        <label>Laravel, Tailwind, POS</label>
+                        <a href="#modal-point" data-toggle="modal"><i class="fas fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="filter-portfolio col-md-4 programming mt-4">
+                  <div class="portfolio-box">
                      <img src="{{ asset('assets/image/goestowedding.png') }}" class="img-fluid" alt="">
                      <div class="portfolio-box-caption">
                         <h4>Goestowedding</h4>
@@ -272,10 +283,9 @@
                      </div>
                   </div>
                </div>
-
                <div class="filter-portfolio col-md-4 programming mt-4">
                   <div class="portfolio-box">
-                     <img src="{{ asset('assets/image/verayonas.png') }}" class="img-fluid" alt="">
+                     <img src="{{ asset('assets/image/verayonas.jpg') }}" class="img-fluid" alt="">
                      <div class="portfolio-box-caption">
                         <h4>Vera Yonas</h4>
                         <label>Code Igniter</label>
@@ -295,7 +305,7 @@
                </div>
                <div class="filter-portfolio col-md-4 programming mt-4">
                   <div class="portfolio-box">
-                     <img src="{{ asset('assets/image/propertymarketing.png') }}" class="img-fluid" alt="">
+                     <img src="{{ asset('assets/image/propertymarketing.jpg') }}" class="img-fluid" alt="">
                      <div class="portfolio-box-caption">
                         <h4>propertymarketing.id</h4>
                         <label>Landing Page</label>
@@ -305,7 +315,7 @@
                </div>
                <div class="filter-portfolio col-md-4 programming mt-4">
                   <div class="portfolio-box">
-                     <img src="{{ asset('assets/image/vanaroma.png') }}" class="img-fluid" alt="">
+                     <img src="{{ asset('assets/image/vanaroma.jpg') }}" class="img-fluid" alt="">
                      <div class="portfolio-box-caption">
                         <h4>vanaroma.com</h4>
                         <label>PHP, JS, REST API, Code Igniter</label>
@@ -315,7 +325,7 @@
                </div>
                <div class="filter-portfolio col-md-4 programming mt-4">
                   <div class="portfolio-box">
-                     <img src="{{ asset('assets/image/indopine.png') }}" class="img-fluid" alt="">
+                     <img src="{{ asset('assets/image/indopine.jpg') }}" class="img-fluid" alt="">
                      <div class="portfolio-box-caption">
                         <h4>indopine.com</h4>
                        <label>Landing Page, REST API, Code Igniter</label>
@@ -529,7 +539,7 @@
                </div>
                <div class="modal-body service-model-content">
                   <figure class="mb-0">
-                     <img src="{{ asset('assets/image/propertymarketing.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid">
+                     <img src="{{ asset('assets/image/propertymarketing.jpg') }}" alt="feri-anggriawan-portfolio" class="img-fluid">
                   </figure>
                   <h4>propertymarketing.id</h4>
                   <p class="mb-4">propertymarketing.id is a landing page for a Property Sales Agents located in Bogor. Built using the bootstrap framework and fully mobile responsive.</p> 
@@ -546,7 +556,7 @@
                </div>
                <div class="modal-body service-model-content">
                   <figure class="mb-0">
-                     <img src="{{ asset('assets/image/vanaroma.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid">
+                     <img src="{{ asset('assets/image/vanaroma.jpg') }}" alt="feri-anggriawan-portfolio" class="img-fluid">
                   </figure>
                   <h4>vanaroma.com</h4>
                   <p class="mb-4">vanaroma.com is a PT. Van Aroma official company website<br>
@@ -617,6 +627,33 @@
                   <p class="mb-4">masterdingin.com is a landing page for a brand that provides air conditioning repair, installation and maintenance services. Built using the bootstrap framework and fully mobile responsive. <br>you could say this is another version of radjadingin.com</p>
                 </p> 
                   <a href="indopine.com" target="_blank" class="btn btn-visit-porfolio">Visit Website</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="modal-point" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <div class="row">
+                    <img src="{{ asset('assets/image/point.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid col-md-12">
+                    <img src="{{ asset('assets/image/point2.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid col-md-6 mt-3">
+                    <img src="{{ asset('assets/image/point4.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid col-md-6 mt-3">
+                    <img src="{{ asset('assets/image/point3.png') }}" alt="feri-anggriawan-portfolio" class="img-fluid col-md-12 mt-3">
+                  </div>
+                  <h4>POINT - POS & Inventory APP</h4>
+                  <p class="mb-4">
+                    POINT is POS (Point of Sales) & Inventory application.
+                    <br>
+                    Based on a request from one of the owners of a business engaged in the F&B field, 
+                    This application is Developed with Laravel framework and Tailwind CSS.
+                  </p>
+                  </p> 
+                  <a href="https://pointapp.my.id/" target="_blank" class="btn btn-visit-porfolio">Visit Website</a>
                </div>
             </div>
          </div>
